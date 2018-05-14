@@ -1,0 +1,7 @@
+@import "bootstrap";
+
+body {margin: 0 !important;}
+.completed .desc {text-decoration: line-through;}
+a.btn:visited {color: unset !important;}
+table a.btn, table a.btn:visited {color: #fff !important;}
+.indexTop {margin-bottom: 20px;}
