@@ -1,7 +1,20 @@
+$dark: #9C385B;
+$danger: #F95929;
+$secondary: #9C385B;
+$primary: #F61D61;
+$light: #8A8C96;
+$body-bg: #75cac1;
+
 @import "bootstrap";
 
+html, body {height: 100% !important; background: $body-bg !important;}
 body {margin: 0 !important;}
+.completed {opacity: .6;}
 .completed .desc {text-decoration: line-through;}
-a.btn:visited {color: unset !important;}
-table a.btn, table a.btn:visited {color: #fff !important;}
+a, a:visited {color: #fff !important;}
+.desc a, .desc a:visited {color: $dark !important;}
+a.btn-outline-danger, a.btn-outline-danger:visited {color: #F95929 !important;}
+a.btn-outline-danger:hover {color: #ffffff !important;}
 .indexTop {margin-bottom: 20px;}
+table td {vertical-align: middle !important;}
+nav input.form-control {background: #f7f1f1cf;}
